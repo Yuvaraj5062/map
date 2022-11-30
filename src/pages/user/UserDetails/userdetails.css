@@ -1,0 +1,87 @@
+.cancelBtn{
+    background-color:#777e84;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    padding: 8px 25px;
+}
+
+
+
+.Save-buttton{
+    background: transparent linear-gradient(to right,#24B1E3, #103E67) 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    border: none;
+    padding: 8px 25px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+
+.userDetailSubHeading{
+    color:#24B1E3;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    text-align: center;
+}
+.user-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+}
+.user-header .user-title{
+    color:#103E67;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 20px;
+}
+.user-header .add-user-container .add-user-btn{
+    background: transparent linear-gradient(to right,#24B1E3, #103E67);
+    border-radius: 30px;
+    border: none;
+    font-size: 18px;
+    padding: 7px 15px;
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+@media only screen and (min-width: 768px) {
+    .userDetailSubHeading{
+        color:#24B1E3;
+        font-weight: bold;
+        font-size: 18px;
+        font-family: 'Montserrat';
+        text-align: unset;
+    }
+    .user-header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 20px 0px;
+    }
+    .user-header .user-title{
+        color:#103E67;
+        font-family: 'Montserrat';
+        font-weight: bold;
+        font-size: 22px;
+    }
+    .user-header .add-user-container .add-user-btn{
+        background: transparent linear-gradient(to right,#24B1E3, #103E67) 0% 0% no-repeat padding-box;
+        border-radius: 30px;
+        border: none;
+        font-size: 16px;
+        padding: 7px 20px;
+        color: #ffffff;
+        font-family: 'Montserrat';
+        font-weight: bold;
+    }
+    
+}

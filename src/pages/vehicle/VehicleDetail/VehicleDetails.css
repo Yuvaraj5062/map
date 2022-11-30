@@ -1,0 +1,83 @@
+.cancelBtn{
+    background-color:#777e84;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    padding: 8px 25px;
+}
+
+
+
+.Save-buttton{
+    background: transparent linear-gradient(to right,#24B1E3, #103E67) 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    border: none;
+    padding: 8px 25px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.vehicle-data-table-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0px  30px 0px;
+}
+.vehicle-data-table-text{
+    color:#103E67;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 20px;
+}
+.vehicle-subHeading{
+    color:#24B1E3;
+    font-family: 'Montserrat';
+    font-weight: medium;
+    font-size: 16px;
+}
+.Add-vehicle-button{
+    background: transparent linear-gradient(to right,#24B1E3, #103E67) 0% 0% no-repeat padding-box;
+    border-radius: 30px;
+    border: none;
+    padding: 7px 15px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 14px;
+}
+@media only screen and (min-width : 768px){
+    .vehicle-data-table-header{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 15px 0px  30px 0px;
+    }
+    .vehicle-data-table-text{
+        color:#103E67;
+            font-family: 'Montserrat';
+            font-weight: bold;
+            font-size: 22px;
+    }
+    .vehicle-subHeading{
+        color:#24B1E3;
+        font-family: 'Montserrat';
+        font-weight: medium;
+        font-size: 18px;
+    }
+    .Add-vehicle-button{
+        background: transparent linear-gradient(to right,#24B1E3, #103E67) 0% 0% no-repeat padding-box;
+        border-radius: 30px;
+        border: none;
+        padding: 7px 20px;
+        color: white;
+        font-family: 'Montserrat';
+        font-weight: bold;
+        font-size: 15px;
+    }
+}

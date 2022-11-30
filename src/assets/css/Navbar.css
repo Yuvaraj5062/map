@@ -1,0 +1,32 @@
+
+
+ .navbar {
+  height: 10vh;
+  background:#103E67;
+  display: flex;
+  align-items: center;
+  justify-content: center;   ;
+}
+
+.rounded-shape {
+  border-radius: 50px !important;
+  border-color: #ccc;   ;
+}
+
+.homepage-bgimage {
+  background: url('../images/Background\ image.jpg');
+  position: fixed;
+  background-position: center;
+  background-size: cover;
+  min-height: 100%;
+min-width: 100%;   ;
+}
+.heading{
+  color:"#103E67";
+  font-weight:"bold";   ;
+}
+.rolecard{
+  margin-top: 10%;
+  margin-left: 15%;
+  margin-right: 40%;   ;
+}

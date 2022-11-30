@@ -1,0 +1,99 @@
+.sub-heading{
+    color:#24B1E3;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    text-align: center;
+}
+.save-btn-container{
+    width: 100%;
+    text-align: center;
+}
+.save-btn{
+    background: transparent linear-gradient(to right,#24B1E3, #103E67) 0% 0% no-repeat padding-box;
+    border-radius: 30px;
+    width: 100%;
+    height: 44px;   
+    border: none;
+    margin-top: 20px;
+}
+.user-info-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+}
+.user-info-header .user-info-title{
+    color:#103E67;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 20px;
+}
+.user-info-header .show-users-container .show-users-btn{
+    background: transparent linear-gradient(to right,#24B1E3, #103E67) 0% 0% no-repeat padding-box;
+    border-radius: 30px;
+    border: none;
+    font-size: 14px;
+    padding: 7px 15px;
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+@media only screen and (min-width: 768px) {
+    .sub-heading{
+        color:#24B1E3;
+        font-weight: bold;
+        font-size: 18px;
+        font-family: 'Montserrat';
+        text-align: unset;
+    }
+    .user-info{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border: none;
+        font-family: 'Montserrat';
+    }
+    .user-info .user-info-field{
+        width: 48%;
+        font-family: 'Montserrat';
+    }
+    .save-btn-container{
+        width: 100%;
+        text-align: end;
+    }
+    .save-btn-container .save-btn{
+        background: transparent linear-gradient(to right,#24B1E3, #103E67) 0% 0% no-repeat padding-box;
+        border-radius: 30px;
+        width: 141px;
+        height: 44px;
+        border: none;
+        font-family: 'Montserrat';
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    .user-info-header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 20px 0px;
+    }
+    .user-info-header .user-info-title{
+        color:#103E67;
+        font-family: 'Montserrat';
+        font-weight: bold;
+        font-size: 22px;
+    }
+    .user-info-header .show-users-container .show-users-btn{
+        background: transparent linear-gradient(to right,#24B1E3, #103E67) 0% 0% no-repeat padding-box;
+        border-radius: 30px;
+        border: none;
+        font-size: 15px;
+        padding: 7px 20px;
+        color: #ffffff;
+        font-family: 'Montserrat';
+        font-weight: bold;
+    }
+}

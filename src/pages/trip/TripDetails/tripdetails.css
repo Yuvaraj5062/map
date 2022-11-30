@@ -1,0 +1,85 @@
+.cancelBtn{
+    background-color:#777e84;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    padding: 8px 25px;
+}
+
+
+
+.Save-buttton{
+    background: transparent linear-gradient(to right,#24B1E3, #103E67) 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    border: none;
+    padding: 8px 25px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.tripDetailsSubHeading{
+    color:#24B1E3;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    text-align: center;
+}
+.trip-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+}
+.trip-header .trip-title{
+    color:#103E67;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 20px;
+}
+.trip-header .add-trips-container .add-trips-btn{
+    background: transparent linear-gradient(to right,#24B1E3, #103E67) 0% 0% no-repeat padding-box;
+    border-radius: 30px;
+    border: none;
+    font-size: 14px;
+    padding: 7px 15px;
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+@media only screen and (min-width: 768px) {
+    .tripDetailsSubHeading{
+        color:#24B1E3;
+        font-weight: bold;
+        font-size: 18px;
+        font-family: 'Montserrat';
+        text-align: unset;
+    }
+    .trip-header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 20px 0px;
+    }
+    .trip-header .trip-title{
+        color:#103E67;
+        font-family: 'Montserrat';
+        font-weight: bold;
+        font-size: 22px;
+    }
+    .trip-header .add-trips-container .add-trips-btn{
+        background: transparent linear-gradient(to right,#24B1E3, #103E67) 0% 0% no-repeat padding-box;
+        border-radius: 30px;
+        border: none;
+        font-size: 15px;
+        padding: 7px 20px;
+        color: #ffffff;
+        font-family: 'Montserrat';
+        font-weight: bold;
+    }
+}
