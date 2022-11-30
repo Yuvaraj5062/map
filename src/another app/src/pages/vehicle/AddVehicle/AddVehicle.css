@@ -1,0 +1,105 @@
+
+
+
+
+.vehicle-info-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0px  30px 0px;
+}
+.vehicle-info-text{
+    color:#103E67;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 20px;
+}
+.Show-vehicle-buttton{
+    background: transparent linear-gradient(to right,#24B1E3, #103E67) 0% 0% no-repeat padding-box;
+    border-radius: 30px;
+    border: none;
+    padding: 7px 15px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 14px;
+}
+.vehicle-subHeading{
+    font-family: 'Montserrat';
+    color:#24B1E3;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+.save-button-container{
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.save-button{
+    background: transparent linear-gradient(to right,#24B1E3, #103E67) 0% 0% no-repeat padding-box;
+    border-radius: 30px;
+    width: 100%;
+    height: 44px;   
+    border: none;
+    margin-top: 50px;
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+@media only screen and (min-width : 768px){
+    .vehicle-info-header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 15px 0px  30px 0px;
+    }
+    .vehicle-info-text{
+        color:#103E67;
+        font-family: 'Montserrat';
+        font-weight: bold;
+        font-size: 22px;
+    }
+    .Show-vehicle-buttton{
+        background: transparent linear-gradient(to right,#24B1E3, #103E67) 0% 0% no-repeat padding-box;
+        border-radius: 30px;
+        border: none;
+        padding: 7px 20px;
+        color: white;
+        font-family: 'Montserrat';
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .vehicle-subHeading{
+        font-family: 'Montserrat';
+        color:#24B1E3;
+        font-weight: bold;
+        font-size: 16px;
+        text-align: unset;
+        margin: 20px auto;
+    }
+    .vehicle-info{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .vehicle-info-field{
+        width: 49%;
+    }
+    .save-button-container{
+        width: 100%;
+        text-align: end;
+    }
+    .save-button{
+        background: transparent linear-gradient(to right,#24B1E3, #103E67) 0% 0% no-repeat padding-box;
+        border-radius: 30px;
+        width: 141px;
+        height: 44px;   
+        border: none;
+        margin-top: 20px;
+        color: #ffffff;
+        font-family: 'Montserrat';
+        font-weight: bold;
+    }
+}

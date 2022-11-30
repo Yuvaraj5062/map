@@ -1,0 +1,150 @@
+.homepage-bgimage{
+    width:100%;
+    display: unset;
+    flex-direction: unset;
+    align-items: unset;
+    justify-content: unset;
+}
+.login-form{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    color: #ffffff;
+      font-family:"Montserrat";
+    background: unset;
+    box-shadow: unset;
+    border-radius: unset;
+    
+}
+.heading{
+    text-align: center;
+}
+.app-logo {
+    margin-top: 50px;
+}
+.form-content{
+    margin:40px 0px 0px 0px;
+}
+.login-title{
+    font-weight: bold;
+    color: #103E67;
+    font-size: 20px;
+}
+.login-text{
+    font-size: 16px;
+    color:white;
+}
+.username-container{
+    margin-top: 10px;
+}
+.username-container > .form-control{
+    background-color: unset;
+    color: white;
+}
+#standard-basic ::before{
+    color: white;
+}
+.password-container{
+    margin-top: 10px;
+}
+.password-container > .form-control{
+    background-color: unset;
+    color: white;
+}
+.remember-password{
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color:#777E84
+
+}
+.remember-password > a {
+    color: #ffffff;
+    text-decoration: none;
+}
+ .remember-password .MuiFormControlLabel-label{
+     font-size: 13px;
+ }
+ .login-button-container{
+    width: 100%;
+    text-align: unset;         
+}
+.button{
+    width: 80%;
+    border-radius: 30px;
+    margin: auto;
+    position:absolute;
+      font-family:"Montserrat";;
+    bottom: 5%;  
+    background-image: linear-gradient(to right,#24B1E3, #103E67);
+}
+@media only screen and (min-width : 768px){
+    .homepage-bgimage{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+     .login-form{
+         height: 536px;
+         width: 475px;
+         margin: unset;
+         color:#24B1E3;
+         background: #ffffff;
+         box-shadow: 0 0 10px rgba(110, 109, 109, 0.8); 
+         border-radius: 5px;
+           font-family:"Montserrat";;
+         font-weight: bold;
+     }
+      .heading{
+         text-align: center;
+     }
+     .app-logo {
+         margin-top: 40px;
+     }
+     .form-content{
+         margin:50px 40px 0px 40px;
+     }
+     .login-title{
+         font-weight: bold;
+         color:#103E67;
+         font-size: 22px;
+     }
+     .login-text{
+        font-size: 18px;
+        color:#24B1E3;
+    }
+     .username-container{
+         margin-top: 15px;
+        }
+        .password-container{
+            margin-top: 15px;
+     }
+     .remember-password{
+        font-size: unset;
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         justify-content: space-between;
+           font-family:"Montserrat";;
+     }
+     .remember-password > a {
+        color: #0d6efd;
+        text-decoration: none;
+        }
+     .login-button-container{
+         width: 95%;
+         text-align: end;        
+     }
+     .button{
+         width: 45%;
+         border-radius: 30px;
+         margin:20px 0px 0px 0px;
+           font-family:"Montserrat";;
+         position:unset;
+         bottom: unset;
+     }
+}

@@ -1,0 +1,71 @@
+.cancelBtn{
+    background-color:#777e84;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    padding: 8px 25px;
+}
+.role-data-table-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0px  30px 0px;
+}
+.role-data-table-text{
+    color:#103E67;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 20px;
+}
+.Add-role-button{
+    background: transparent linear-gradient(to right,#24B1E3, #103E67) 0% 0% no-repeat padding-box;
+    border-radius: 30px;
+    border: none;
+    padding: 7px 15px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 14px;
+}
+.role-detail-subHeading{
+    font-family:"Montserrat";
+    color:#24B1E3;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+@media only screen and (min-width : 768px){
+    .role-data-table-header{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 15px 0px  30px 0px;
+    }
+    .role-data-table-text{
+            color:#103E67;
+            font-family: 'Montserrat';
+            font-weight: bold;
+            font-size: 22px;
+    }
+    .Add-role-button{
+        background: transparent linear-gradient(to right,#24B1E3, #103E67) 0% 0% no-repeat padding-box;
+        border-radius: 30px;
+        border: none;
+        padding: 7px 20px;
+        color: white;
+        font-family:"Montserrat";
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .role-detail-subHeading{
+        font-family: 'Montserrat';
+        color:#24B1E3;
+        font-weight: bold;
+        font-size: 18px;
+        text-align: unset;
+        margin: 20px auto;
+    }
+}
