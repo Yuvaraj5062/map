@@ -1,0 +1,4 @@
+
+/** List of Client */
+export const GET_SALARY_SLIP_REQUEST = 'GET_SALARY_SLIP_REQUEST';
+export const SET_SALARY_SLIP_REQUEST = 'SET_SALARY_SLIP_REQUEST';

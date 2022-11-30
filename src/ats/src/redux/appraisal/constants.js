@@ -1,0 +1,5 @@
+
+/** List of Client */
+export const GET_EREIVEW_LIST_REQUEST = 'GET_EREIVEW_LIST_REQUEST';
+export const SET_EREIVEW_LIST_REQUEST = 'SET_EREIVEW_LIST_REQUEST';
+

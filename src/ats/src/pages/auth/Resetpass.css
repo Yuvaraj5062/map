@@ -1,0 +1,21 @@
+.main-box{
+    background-color: #fff;
+  margin:2%  8% 0% 8%;
+    
+}
+
+.buttons-size{
+    width: 100%;
+ 
+}
+.reset-title{
+   margin-left:  120px;
+  width: max-content;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #000000;
+
+}

@@ -1,0 +1,7 @@
+
+/** List of CWS */
+export const GET_CWS_LIST_REQUEST = 'GET_CWS_LIST_REQUEST';
+export const SET_CWS_LIST_REQUEST = 'SET_CWS_LIST_REQUEST';
+//Add CWS
+export const CREATE_CWS = 'CREATE_CWS';
+export const CREATE_CWS_SUCCESS = 'CREATE_CWS_SUCCESS';

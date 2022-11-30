@@ -1,0 +1,8 @@
+
+/** List of Holiday */
+export const GET_HOLIDAY_LIST_REQUEST = 'GET_HOLIDAY_LIST_REQUEST';
+export const SET_HOLIDAY_LIST_REQUEST = 'SET_HOLIDAY_LIST_REQUEST';
+
+//Create Holiday
+export const ADD_HOLIDAY = 'ADD_HOLIDAY';
+export const ADD_HOLIDAY_REQUEST = 'ADD_HOLIDAY_REQUEST';
